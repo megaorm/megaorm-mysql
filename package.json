@@ -1,0 +1,52 @@
+{
+  "name": "@megaorm/mysql",
+  "version": "1.0.0",
+  "description": "This package provides a simple, high-level, unified API for interacting with MySQL databases.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-mysql.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc"
+  },
+  "keywords": [
+    "mysql",
+    "mysql-driver",
+    "megaorm",
+    "database-driver",
+    "nodejs",
+    "node-mysql",
+    "database-connection",
+    "orm",
+    "database",
+    "mysql-connection",
+    "transactions",
+    "sql",
+    "query-builder",
+    "sql-driver",
+    "mysql-connector",
+    "node-database",
+    "nodejs-mysql",
+    "database-management",
+    "node-mysql-driver",
+    "javascript-mysql"
+  ],
+  "dependencies": {
+    "@megaorm/driver": "^1.0.0",
+    "@megaorm/errors": "^1.0.0",
+    "@megaorm/test": "^1.2.0",
+    "@megaorm/utils": "^1.0.0",
+    "mysql2": "^3.11.5"
+  }
+}
